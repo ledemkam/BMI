@@ -1,0 +1,15 @@
+services:
+    bmi:
+        image: mysql:8.4.2
+        container_name: bmi
+        restart: always
+        environment:
+           MYSQL_ROOT_PASSWORD: root
+        ports:
+        - 3306:3306
+    adminer:
+        image: adminer:4.8.0-standalone
+        container_name: adminer-4.8.0-standalone
+        restart: always
+        ports:
+        - 8180:8080

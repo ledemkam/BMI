@@ -1,0 +1,15 @@
+###
+POST http://localhost:8080/api/bmi
+Content-Type: application/json
+
+{
+  "height": 155,
+  "weight": 98,
+  "account": {
+    "email": "gout@juju.de"
+  }
+}
+
+###
+
+GET http://localhost:8080/api/bmi

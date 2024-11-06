@@ -2,7 +2,7 @@
 const Bmis = () => {
   return (
     <div>
-      <h3 className="flex items-center justify-between text-white font-light pb-2 border-b border-white">
+      <h3 className="flex items-center justify-between text-white font-semibold pb-2 border-b border-white">
         <span>
         BMI anzeigen
         </span>

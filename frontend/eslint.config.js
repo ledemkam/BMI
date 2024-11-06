@@ -11,12 +11,17 @@ export default [
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
+     
       parserOptions: {
         ecmaVersion: 'latest',
         ecmaFeatures: { jsx: true },
         sourceType: 'module',
+
+       
       },
     },
+    env: { browser: true, es2020: true, node: true },
+    
     settings: { react: { version: '18.3' } },
     plugins: {
       react,
